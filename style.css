@@ -1,0 +1,42 @@
+:root{
+    --light: rgb(140, 168, 210);
+    --main: rgb(72, 116, 181);
+    --dark: rgb(51, 83, 129);
+}
+
+body {
+    font-family: Arial;
+    margin: 0;
+}
+
+header {
+    background-color: var(--main);
+    padding: 50px;
+}
+
+header img {
+    height: 250px;
+    display: block;
+    margin: auto auto;
+}
+
+nav {
+    background-color: var(--light);
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+footer {
+    background-color: var(--main);
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
